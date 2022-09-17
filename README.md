@@ -1,18 +1,18 @@
 # Loan_Status_Analysis
-The main goal of this project is to identify and predict the loan status for lenders.   
-To figure out wheather the datasets has time series characteristic, two volidation methods (K-fold, TimeSplit) are also used.  
-In this project RandomForest is the main model to predict and analyze the loan status.  
+The main goal of this project is to identify and predict the loan status of lenders.   
+To figure out whether the dataset has time series characteristic, two validation methods (K-fold, TimeSplit) are also used.  
+In this project, RandomForest is the main model to predict and analyze the loan status.  
 
 
 ## Data Description
-The Dataset for model training includss 916567 rows and 10 columns from 2007 to 2017. 
+The Dataset for model training includes 916567 rows and 10 columns from 2007 to 2017. 
 
-### The Y vairable in the project is:  
+### The Y variable in the project is:  
 
-* loan_stat -> Including 3 status, Fully Paid, Charged Off and Default
+* loan_stat -> Including 3 status, Fully Paid, Charged Off, and Default
 
 
-#### There are 10 X vairables using in this porject:
+#### There are 10 X variables using in this project:
   
 * annual_inc -> Annual income  
 * emp_length -> Employment length  
